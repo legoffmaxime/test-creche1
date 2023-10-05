@@ -1,0 +1,76 @@
+
+
+
+
+body{margin:0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img {
+width: 150px;
+}
+
+section.top-page{
+background: url('../image/creche.jpg');
+background-size: cover;
+height: 94vh;
+padding:25px;
+}
+
+.landing-page{
+    width: auto;
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.big-title{
+    position: relative;
+font-size: 25px;
+font-family: 'Dancing Script', cursive;
+display: inline-block;
+padding: 10px;
+display: flex;
+justify-content: right;
+border: solid black ;
+width: 170px;
+height: 100px;
+border-radius: 100px;
+margin: 0;
+}
+
+.big-title::before {
+    content: '';
+    position: absolute;
+    top: 40%; /* Centre verticalement la flèche par rapport à la boîte */
+    right: 100%; /* Place la flèche juste à gauche de la boîte */
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent; /* Pointe la flèche vers la gauche */
+}
+
+img {
+    background-color: gray;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30px;
+    width: 400px;
+    
+}
+
+nav.nav li{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
