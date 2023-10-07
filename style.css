@@ -1,8 +1,12 @@
-
-
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+}
 
 
 body{margin:0 auto;
+  background-color: #CBBDE0;
 }
 
 header.header {
@@ -59,7 +63,7 @@ img {
     background-color: gray;
 }
 
-nav.nav {
+.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -68,9 +72,212 @@ nav.nav {
     
 }
 
-nav.nav li{
+.nav li{
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 15px;
+    padding: 5px 5px;
+    
+}
+
+
+.nav a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon{
+    
+        position: absolute;
+        top: 52px;
+        right: 20px; 
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        color: #000; 
+    }
+    
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: #EAE8F3;
+}
+
+.service-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+   
+    
+}
+
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+.delivery-icon1{
+    font-size: 50px;
+   color: #ff0000;
+    transition-duration: 0.8s;
+    
+}
+
+.delivery-icon2{
+    font-size: 50px;
+    color: #add981;
+    transition-duration: 0.8s;
+}
+
+.delivery-icon3{
+    font-size: 50px;
+    color: #40a3a1;
+    transition-duration: 0.8s;
+}
+
+.delivery-icon2:hover{
+rotate: 360deg;
+}
+
+.delivery-icon1:hover{
+    rotate: 360deg;
+    }
+
+    .delivery-icon3:hover{
+        rotate: 360deg;
+        }
+
+.anniversaire1{
+    color: #ff0000;
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.anniversaire1 th, .anniversaire1 td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    }
+
+    .aniversaire1 th{
+        
+        font-weight: bold;
+    }
+
+    .anniversaire2{
+        color:#8BC83C;
+        font-weight: bold;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .anniversaire2 th, .anniversaire2 td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        }
+    
+        .aniversaire2 th{
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .anniversaire3{
+            color: #40a3a1;
+            font-weight: bold;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .anniversaire3 th, .anniversaire3 td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+
+            }
+        
+            .anniversaire3 th{
+                
+                font-weight: bold;
+            }
+
+.delivery-icon2{
+    font-size: 50px;
+    color: #add981;
+    transition-duration: 0.8s;
+}
+
+.delivery-icon3{
+    font-size: 50px;
+    color: #40a3a1;
+    transition-duration: 0.8s;
+}
+
+
+
+.header1 img{
+    width: 150px;
+   
+}
+
+.form-container{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+  
+    }
+
+.tableau{
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+}
+
+
+.checkbox-container input[type="checkbox"]{
+    
+    margin-right: 30px;
+}
+
+.mdp{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
