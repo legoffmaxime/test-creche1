@@ -1,0 +1,72 @@
+body{margin:0 auto;
+  background-color: #CBBDE0;
+}
+
+.header1 img{
+  width: 150px;
+  
+}
+
+.top-page{
+  background-color: #CBBDE0;
+}
+
+  
+
+  #carouselExampleFade{
+    width: 800px;
+    height: 400px;
+    }
+
+    #carouselExampleFade1{
+      width: 200px;
+      height: 200px;
+    }
+
+    #carouselExampleFade2{
+      width: 200px;
+      height: 200px;
+    }
+
+    #carouselExampleFade3{
+      width: 200px;
+      height: 200px;
+    }
+
+    .carousel-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; 
+      
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+    
+}
+
+.carousel-container1, .carousel-container2, .carousel-container3 {
+    margin: 10px;
+}
+
+  .titre{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    display:flex;
+    justify-content: center;
+  }
+
+  .h1{
+    display: flex;
+    height: 20px;
+  }
+
+ 
+
+    
+  
